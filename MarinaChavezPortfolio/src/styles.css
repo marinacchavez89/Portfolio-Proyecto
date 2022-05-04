@@ -1,1 +1,208 @@
-/* You can add global styles to this file, and also import other style files */
+.logo-ap{ 
+    float: left;    
+    font-size: 150%;
+}
+
+.redes{
+    float:right;
+    font-size: 150%;
+    
+}
+
+.textosup1{
+ color: black;
+ font-size: 60%; 
+ font-family: Tahoma;
+ font-weight:bold;
+}
+
+.botonredes{
+    color: white;
+    background-color: rgb(202, 153, 202); 
+    width: 260px;
+    font-size: 60%;
+    font-family: Tahoma;
+    text-decoration: underline;
+    font-weight: bold;
+    border-radius: 4px; 
+    border: 2px;
+    position: relative; top: -3px; left: -2px;
+
+}
+
+.btn-primary{    
+    color: white; 
+    background-color: rgb(202, 153, 202);
+    border-color: rgb(150, 167, 167);
+    width: 60px;
+    font-size: 90%;
+    font-family: Tahoma;
+    font-weight: bold;
+    border-radius: 4px;
+    position: relative; top: 44px; left: 0px;
+    border: 2px;
+}
+
+.botonlogin{
+    float: right;
+}
+
+:hover.btn-primary{
+    color: rgb(241, 231, 231) !important;
+    background-color: rgb(171, 12, 192) !important;
+    border-color: rgb(114, 102, 172) !important;   
+    width: 75px;
+
+ }
+
+ :active.btn-primary{
+    color: rgb(171, 12, 192)!important;
+    background-color: aquamarine !important;
+    border-color: blue;
+ }
+
+:hover.botonredes{
+    color: rgb(241, 231, 231) !important;
+    background-color: rgb(171, 12, 192) !important;
+    border-color: rgb(114, 102, 172) !important;
+    width: 280px;
+    
+ }
+
+ :active.botonredes{
+    color: rgb(171, 12, 192)!important;
+    background-color: aquamarine !important;
+    border-color: blue;
+ }
+
+.banner{
+    margin: auto;
+	width: 100%;
+	min-width: 1330px;
+	max-width: 1000px;
+	position: relative;
+	height: 300px;
+	min-height: 100%;
+	max-height: 900px;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #c4b8bf, #8f59e6);
+}
+
+.imagen-perfil{
+position: absolute; top: 300px; left: 50px;
+padding: 5px;
+
+width: 150px;
+}
+
+:hover.imagen-perfil{
+    width: 150px;
+}
+
+.acercade{
+padding-top: 20px;
+text-align: center;
+font-family: "-apple-system", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(94, 55, 94);
+font-size: 30px;
+font-weight: bolder ;
+font-style: oblique;
+
+}
+
+.mihistoria{
+margin: 30px;
+padding-top: 10px;
+padding-bottom: 1px;
+padding-left: 8px;
+padding-right: 8px;
+text-align: center;
+font-family: Tahoma;
+background-color: rgb(234, 195, 240);
+font-size: medium;
+font-style: italic;
+border-radius: 10px;
+}
+
+.titulos{
+    font-size: large;
+    background-color: rgb(190, 181, 181);
+    padding: 5px;
+    margin: 20px;
+    margin-right: 85%;
+    box-shadow: 3px 3px rgb(65, 55, 55), -0.5em 0 0.4em rgb(85, 85, 79);
+
+}
+
+.textosobremi{
+    margin: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.experiencialaboral{
+    margin: 30px;
+    text-align: justify;
+    margin-right: 50%;
+}
+
+.estudios{
+    margin: 30px;
+    text-align: justify;
+    margin-right: 50%;
+}
+
+.skills{
+    margin-left:50px;
+	position: relative;
+    float: right;
+    padding-right: 30px;
+}
+
+.proyectos{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+.descripcionproyectos{
+    text-align: center;
+    text-align: justify;
+    font-style: italic;
+    font-size: large; color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    background-color: rgb(157, 108, 172);
+    border-radius: 10px;
+    padding: 20px;  
+}
+
+.piepagina{
+    background-color: rgb(248, 242, 242);
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.logocontacto{    
+    margin-left: 10px;
+    float: left;
+    border-radius: 20px;
+    position: relative; top: -10px; 
+}
+
+.infocontacto{
+    text-align: left;
+    position: relative; left: 5px; top: 10px;
+    font-style: italic;
+}
+
+.inicio{
+    float: right;
+    position: relative; top: -35px; margin-right: 20px;
+}
+

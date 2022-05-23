@@ -44,6 +44,33 @@
     border: 2px;
 }
 
+.btn-primary-enviar{
+    color: white; 
+    background-color: rgb(202, 153, 202);
+    border-color: rgb(150, 167, 167);
+    width: 60px;
+    font-size: 90%;
+    font-family: Tahoma;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px;
+}
+
+:hover.btn-primary-enviar{
+    color: rgb(241, 231, 231) !important;
+    background-color: rgb(171, 12, 192) !important;
+    border-color: rgb(114, 102, 172) !important;   
+    width: 75px;
+}
+
+:active.btn-primary-enviar{
+    color: rgb(171, 12, 192)!important;
+    background-color: aquamarine !important;
+    border-color: blue;
+ }
+
+
+
 .botonlogin{
     float: right; 
     position: relative; top: -2px;

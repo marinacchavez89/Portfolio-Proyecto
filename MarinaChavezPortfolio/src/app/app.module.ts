@@ -8,7 +8,10 @@ import { ExperiencialaboralComponent } from './componentes/experiencialaboral/ex
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,12 +19,15 @@ import { HttpClientModule } from '@angular/common/http'
     ExperiencialaboralComponent,
     EducacionComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    IniciarSesionComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,17 @@
+{   
+	"id": "1",
+	"nombre": "Marina Celeste Chavez",
+	"redes": "@marinachavez.lactanciayporteo",
+	"imgperfil": "../assets/imagenes/foto perfil.jpeg",
+	"fechanac": "07/09/1989", 
+	"celular": "+ 54 9 11 3266-0120",
+	"email": "marinachavez89@gmail.com",
+	
+	"trabajo1": "2018-actualidad | Puericultora y consultora en porteo",
+	"trabajo2": "2008-2015 | Amx Móvil",
+	"estudios1": "2021-actualidad | Programación",
+	"estudios2": "2017-2018 | Puericultura",
+	"estudios3": "2017 | Porteo",
+	"estudios4": "2008-2013 | Ceremonial y protocolo"
+	
+}

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./dist/marina-chavez-portfolio",
+    "public": "y",
     "ignore": [
       "firebase.json",
       "**/.*",

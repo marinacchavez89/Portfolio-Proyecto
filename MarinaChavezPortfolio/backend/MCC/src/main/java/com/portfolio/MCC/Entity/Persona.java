@@ -25,5 +25,8 @@ public class Persona {
     @Size(min = 1, max = 100, message = "No cumple con la longitud")
     private String imgperfil;
     
+    @Size(min = 1, max = 100, message = "No cumple con la longitud")
+    private String redes;   
+    
     
 }

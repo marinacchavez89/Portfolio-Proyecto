@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/marina-chavez-portfolio",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

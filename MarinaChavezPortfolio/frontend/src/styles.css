@@ -235,3 +235,15 @@ border-radius: 10px;
     position: relative; top: -35px; margin-right: 20px;
 }
 
+.botonlinkedin{
+
+    float: right;
+    position: relative; top: 2px; margin-right: -10px;
+}
+
+.logoLK{
+    float: right;
+    position: relative; top: -27px; margin-right: 5px;
+}
+
+

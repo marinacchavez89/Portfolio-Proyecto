@@ -19,7 +19,10 @@ public class Educacion {
     private Long id;
     
     @NotNull
-    private String nombre;    
+    private String nombre;
+
+    public void setNombre(String nuevoNombre) {
+    }    
     
     
 }

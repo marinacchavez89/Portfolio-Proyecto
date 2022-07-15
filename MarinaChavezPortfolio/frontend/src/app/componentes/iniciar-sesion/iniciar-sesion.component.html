@@ -1,6 +1,6 @@
 <h5 class="m-5">Iniciar Sesión</h5>
 
-<form [formGroup]= "form" class="m-5">
+<form [formGroup]= "form" class="m-5" (ngSubmit)="onEnviar($event)">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email</label>
       <input type="email" formControlName="email" 
@@ -30,8 +30,6 @@
           La contraseña debe tener 8 o más caracteres.
         </p>
      </div>
-    </div>
-    <a href="../#/portfolio/">
-      <input type="button" class="btn-primary-enviar" value="iniciar sesión">
-  </a>
+    </div>    
+      <button type="submit" class="btn-primary-enviar">Iniciar Sesión</button>
   </form>

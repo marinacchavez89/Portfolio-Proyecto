@@ -28,14 +28,6 @@ public class Persona {
     @Size(min = 1, max = 100, message = "No cumple con la longitud")
     private String redes;
 
-    public void setNombre(String nuevoNombre) {
-    }
-
-    public void setImgperfil(String nuevoImgPerfil) {
-    }
-
-    public void setRedes(String nuevoRedes) {
-    }   
     
     
 }
